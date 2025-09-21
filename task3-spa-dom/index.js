@@ -2,7 +2,7 @@
 
 const link = document.createElement("link");
 link.rel = "stylesheet";
-link.href = ""; // update with github stylesheet url
+link.href = "https://github.com/hsnfwz/conversion-take-home-assignment/blob/145d36c9fb2523781da7e94975a18eca9c480762/task3-spa-dom/style.css";
 document.head.appendChild(link);
 
 // FUNCTIONS
