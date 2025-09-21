@@ -2,7 +2,7 @@
 
 const link = document.createElement("link");
 link.rel = "stylesheet";
-link.href = "https://raw.githubusercontent.com/hsnfwz/conversion-take-home-assignment/main/task1-dynamic-modal/style.css";
+link.href = "https://hsnfwz.github.io/conversion-take-home-assignment/task1-dynamic-modal/style.css";
 document.head.appendChild(link);
 
 // DATA
