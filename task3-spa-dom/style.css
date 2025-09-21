@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+
+.lm-hero h1 {
+  max-width: 30rem !important;
+  margin-bottom: 2rem !important;
+  font-size: 2.8rem !important;
+}
+.lm-hero__buttons {
+  flex-direction: row !important;
+  gap: 0 !important;
+  align-items: start !important;
+}
+.lm-hero img {
+  width: 50vw !important;
+  max-width: 44rem !important;
+}
+
+#value-proposition-container {
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: normal;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 0.625rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  margin-bottom: 2rem;
+}
+
+.value-proposition {
+  display: flex;
+  flex-direction: row;
+  gap: 1.4375rem;
+  align-content: center;
+  box-sizing: border-box;
+}
+.value-proposition::before {
+  content: "";
+  width: 1rem;
+  height: 1rem;
+  background: url('https://conversion.com/wp-content/themes/conversion/assets/svgs/done.svg') no-repeat center center;
+  background-size: contain;
+  display: inline-block;
+  filter: invert(1);
+  align-self: center;
+}
+
+@media (max-width: 950px) {
+  .lm-why {
+    margin-top: 20rem !important;
+  }
+}
+@media (max-width: 750px) {
+  .lm-why {
+    margin-top: 16rem !important;
+  }
+}
