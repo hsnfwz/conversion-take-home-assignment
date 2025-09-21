@@ -2,7 +2,7 @@
 
 const link = document.createElement("link");
 link.rel = "stylesheet";
-link.href = "https://github.com/hsnfwz/conversion-take-home-assignment/blob/145d36c9fb2523781da7e94975a18eca9c480762/task2-footer-drawer/style.css";
+link.href = "https://raw.githubusercontent.com/hsnfwz/conversion-take-home-assignment/refs/heads/main/task2-footer-drawer/style.css";
 document.head.appendChild(link);
 
 // DATA
